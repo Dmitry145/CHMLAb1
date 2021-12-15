@@ -1,0 +1,3 @@
+C:\Users\Дмитрий\source\repos\CHM Lab1\CHM Lab1\Debug\CHM Lab1.vcxproj.AssemblyReference.cache
+C:\Users\Дмитрий\source\repos\CHM Lab1\CHM Lab1\Debug\CHMLab1.MyForm.resources
+C:\Users\Дмитрий\source\repos\CHM Lab1\CHM Lab1\Debug\CHM Lab1.vcxproj.GenerateResource.cache
