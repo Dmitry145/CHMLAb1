@@ -24,7 +24,7 @@ namespace CHMLab1 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -33,13 +33,13 @@ namespace CHMLab1 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -103,14 +103,14 @@ namespace CHMLab1 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -178,7 +178,7 @@ namespace CHMLab1 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(46, 13);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Задача:";
+			this->label1->Text = L"Г‡Г Г¤Г Г·Г :";
 			// 
 			// groupBox1
 			// 
@@ -193,7 +193,7 @@ namespace CHMLab1 {
 			this->groupBox1->Size = System::Drawing::Size(316, 239);
 			this->groupBox1->TabIndex = 1;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Начальные условия";
+			this->groupBox1->Text = L"ГЌГ Г·Г Г«ГјГ­Г»ГҐ ГіГ±Г«Г®ГўГЁГї";
 			// 
 			// textBox7
 			// 
@@ -226,7 +226,7 @@ namespace CHMLab1 {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(107, 13);
 			this->label8->TabIndex = 2;
-			this->label8->Text = L"U\'0(для системы) = ";
+			this->label8->Text = L"U\'0(Г¤Г«Гї Г±ГЁГ±ГІГҐГ¬Г») = ";
 			// 
 			// label5
 			// 
@@ -250,7 +250,7 @@ namespace CHMLab1 {
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Тестовая", L"Основная 1", L"Основная 2" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Г’ГҐГ±ГІГ®ГўГ Гї", L"ГЋГ±Г­Г®ГўГ­Г Гї 1", L"ГЋГ±Г­Г®ГўГ­Г Гї 2" });
 			this->comboBox1->Location = System::Drawing::Point(12, 224);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(121, 21);
@@ -263,7 +263,7 @@ namespace CHMLab1 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(82, 50);
 			this->button1->TabIndex = 3;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Г‚Г»Г·ГЁГ±Г«ГЁГІГј";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -293,7 +293,7 @@ namespace CHMLab1 {
 			this->groupBox2->Size = System::Drawing::Size(856, 239);
 			this->groupBox2->TabIndex = 5;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Параметры метода";
+			this->groupBox2->Text = L"ГЏГ Г°Г Г¬ГҐГІГ°Г» Г¬ГҐГІГ®Г¤Г ";
 			this->groupBox2->Enter += gcnew System::EventHandler(this, &MyForm::groupBox2_Enter);
 			// 
 			// textBox9
@@ -311,7 +311,7 @@ namespace CHMLab1 {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(195, 13);
 			this->label11->TabIndex = 26;
-			this->label11->Text = L"X принадлежит отрезку [X0;T], где T:";
+			this->label11->Text = L"X ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦ГЁГІ Г®ГІГ°ГҐГ§ГЄГі [X0;T], ГЈГ¤ГҐ T:";
 			// 
 			// textBox11
 			// 
@@ -352,7 +352,7 @@ namespace CHMLab1 {
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(409, 13);
 			this->label13->TabIndex = 21;
-			this->label13->Text = L"Точность выхода на границу epsilon гр. (должно быть положительным числом):";
+			this->label13->Text = L"Г’Г®Г·Г­Г®Г±ГІГј ГўГ»ГµГ®Г¤Г  Г­Г  ГЈГ°Г Г­ГЁГ¶Гі epsilon ГЈГ°. (Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј ГЇГ®Г«Г®Г¦ГЁГІГҐГ«ГјГ­Г»Г¬ Г·ГЁГ±Г«Г®Г¬):";
 			// 
 			// label12
 			// 
@@ -361,7 +361,7 @@ namespace CHMLab1 {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(421, 13);
 			this->label12->TabIndex = 20;
-			this->label12->Text = L"Контроль локальной погрешности epsilon (должно быть положительным числом):";
+			this->label12->Text = L"ГЉГ®Г­ГІГ°Г®Г«Гј Г«Г®ГЄГ Г«ГјГ­Г®Г© ГЇГ®ГЈГ°ГҐГёГ­Г®Г±ГІГЁ epsilon (Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј ГЇГ®Г«Г®Г¦ГЁГІГҐГ«ГјГ­Г»Г¬ Г·ГЁГ±Г«Г®Г¬):";
 			// 
 			// label7
 			// 
@@ -369,7 +369,7 @@ namespace CHMLab1 {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(462, 13);
 			this->label7->TabIndex = 19;
-			this->label7->Text = L"Начальный шаг(должен быть положительным числом):";
+			this->label7->Text = L"ГЌГ Г·Г Г«ГјГ­Г»Г© ГёГ ГЈ(Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј ГЇГ®Г«Г®Г¦ГЁГІГҐГ«ГјГ­Г»Г¬ Г·ГЁГ±Г«Г®Г¬):";
 			// 
 			// label6
 			// 
@@ -377,7 +377,7 @@ namespace CHMLab1 {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(427, 12);
 			this->label6->TabIndex = 9;
-			this->label6->Text = L"Максимальное число шагов(должно быть целым числом, больше 1):";
+			this->label6->Text = L"ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г·ГЁГ±Г«Г® ГёГ ГЈГ®Гў(Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј Г¶ГҐГ«Г»Г¬ Г·ГЁГ±Г«Г®Г¬, ГЎГ®Г«ГјГёГҐ 1):";
 			this->label6->Click += gcnew System::EventHandler(this, &MyForm::label6_Click);
 			// 
 			// groupBox6
@@ -388,7 +388,7 @@ namespace CHMLab1 {
 			this->groupBox6->Size = System::Drawing::Size(784, 233);
 			this->groupBox6->TabIndex = 6;
 			this->groupBox6->TabStop = false;
-			this->groupBox6->Text = L"Результат";
+			this->groupBox6->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			// 
 			// label15
 			// 
@@ -432,7 +432,7 @@ namespace CHMLab1 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(105, 53);
 			this->button2->TabIndex = 10;
-			this->button2->Text = L"Выход";
+			this->button2->Text = L"Г‚Г»ГµГ®Г¤";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -447,7 +447,7 @@ namespace CHMLab1 {
 			this->groupBox3->Size = System::Drawing::Size(523, 239);
 			this->groupBox3->TabIndex = 11;
 			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Параметры a, b (для системы)";
+			this->groupBox3->Text = L"ГЏГ Г°Г Г¬ГҐГІГ°Г» a, b (Г¤Г«Гї Г±ГЁГ±ГІГҐГ¬Г»)";
 			// 
 			// textBox2
 			// 
@@ -496,7 +496,7 @@ namespace CHMLab1 {
 			this->groupBox4->Size = System::Drawing::Size(882, 422);
 			this->groupBox4->TabIndex = 12;
 			this->groupBox4->TabStop = false;
-			this->groupBox4->Text = L"Графики";
+			this->groupBox4->Text = L"ГѓГ°Г ГґГЁГЄГЁ";
 			// 
 			// chart2
 			// 
@@ -510,7 +510,7 @@ namespace CHMLab1 {
 			this->chart2->TabIndex = 1;
 			this->chart2->Text = L"chart2";
 			title1->Name = L"Title1";
-			title1->Text = L"Фазовый портрет(для системы)";
+			title1->Text = L"Г”Г Г§Г®ГўГ»Г© ГЇГ®Г°ГІГ°ГҐГІ(Г¤Г«Гї Г±ГЁГ±ГІГҐГ¬Г»)";
 			this->chart2->Titles->Add(title1);
 			// 
 			// chart1
@@ -534,7 +534,7 @@ namespace CHMLab1 {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(155, 50);
 			this->button3->TabIndex = 13;
-			this->button3->Text = L"Очистить таблицу и график";
+			this->button3->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј ГІГ ГЎГ«ГЁГ¶Гі ГЁ ГЈГ°Г ГґГЁГЄ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -558,7 +558,7 @@ namespace CHMLab1 {
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->label1);
 			this->Name = L"MyForm";
-			this->Text = L"Лабораторная 1. 5 вариант.";
+			this->Text = L"Г‹Г ГЎГ®Г°Г ГІГ®Г°Г­Г Гї 1. 5 ГўГ Г°ГЁГ Г­ГІ.";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
@@ -604,8 +604,21 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	y1 = Convert::ToDouble(textBox4->Text);
 	y2 = Convert::ToDouble(textBox7->Text);
 
-	if (comboBox1->Text == "Основная 2")
+	if (comboBox1->Text == "ГЋГ±Г­Г®ГўГ­Г Гї 2")
 	{
+	 	if (dataGridView1->ColumnCount == 0)
+		{
+			dataGridView1->Columns->Add("", "i");
+			dataGridView1->Columns->Add("", "h(i)");
+			dataGridView1->Columns->Add("", "x");
+			dataGridView1->Columns->Add("", "U");
+			dataGridView1->Columns->Add("", "U'");
+			dataGridView1->Columns->Add("", "||v^-v||");
+			dataGridView1->Columns->Add("", "||s||");
+			dataGridView1->Columns->Add("", "s*");
+			dataGridView1->Columns->Add("", "СѓРІ. С€Р°РіР°");
+			dataGridView1->Columns->Add("", "СѓРј. С€Р°РіР°");
+		}
 		std::vector<std::vector<double>> rk = RK4(x, y1, y2, h, a, b, maxH, E, Egr, maxX);
 		
 		dataGridView1->Rows->Add(rk[0].size());
@@ -641,12 +654,24 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 			chart1->Series[Convert::ToString(j)]->Points->AddXY(rk[2][i], rk[3][i]);
 		}
 
-		label15->Text = "Общее число шагов:" + Convert::ToString(rk[10][0]) + "\nМаксимальная ||S||:" + Convert::ToString(rk[10][1]) + "\nx для максимальной ||S||:" + Convert::ToString(rk[10][2]) + "\nМинимальная ||S||:" + Convert::ToString(rk[10][3]) + "\nx для минимальной ||S||:" + Convert::ToString(rk[10][4]) + "\nПоследнее значение x:" + Convert::ToString(rk[10][5]) + "\nПоследнее значение y:" + Convert::ToString(rk[10][6]) + "\nПоследнее значение z:" + Convert::ToString(rk[10][7]) + "\nМаксимальный шаг:" + Convert::ToString(rk[10][8]) + "\nМинимальный шаг:" + Convert::ToString(rk[10][9]) + "\nЧисло увеличений шага:" + Convert::ToString(rk[10][10]) + "\nЧисло уменьшений шага:" + Convert::ToString(rk[10][11]);
+		label15->Text = "ГЋГЎГ№ГҐГҐ Г·ГЁГ±Г«Г® ГёГ ГЈГ®Гў:" + Convert::ToString(rk[10][0]) + "\nГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г Гї ||S||:" + Convert::ToString(rk[10][1]) + "\nx Г¤Г«Гї Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®Г© ||S||:" + Convert::ToString(rk[10][2]) + "\nГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г Гї ||S||:" + Convert::ToString(rk[10][3]) + "\nx Г¤Г«Гї Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г®Г© ||S||:" + Convert::ToString(rk[10][4]) + "\nГЏГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ x:" + Convert::ToString(rk[10][5]) + "\nГЏГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ y:" + Convert::ToString(rk[10][6]) + "\nГЏГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ z:" + Convert::ToString(rk[10][7]) + "\nГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ:" + Convert::ToString(rk[10][8]) + "\nГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ:" + Convert::ToString(rk[10][9]) + "\nГ—ГЁГ±Г«Г® ГіГўГҐГ«ГЁГ·ГҐГ­ГЁГ© ГёГ ГЈГ :" + Convert::ToString(rk[10][10]) + "\nГ—ГЁГ±Г«Г® ГіГ¬ГҐГ­ГјГёГҐГ­ГЁГ© ГёГ ГЈГ :" + Convert::ToString(rk[10][11]);
 	}
 
 
-	if (comboBox1->Text == "Основная 1")
+	if (comboBox1->Text == "ГЋГ±Г­Г®ГўГ­Г Гї 1")
 	{
+		if (dataGridView1->ColumnCount == 0)
+		{
+			dataGridView1->Columns->Add("", "i");
+			dataGridView1->Columns->Add("", "h(i)");
+			dataGridView1->Columns->Add("", "x");
+			dataGridView1->Columns->Add("", "U");
+			dataGridView1->Columns->Add("", "U^");
+			dataGridView1->Columns->Add("", "s");
+			dataGridView1->Columns->Add("", "s*");
+			dataGridView1->Columns->Add("", "СѓРІ. С€Р°РіР°");
+			dataGridView1->Columns->Add("", "СѓРј. С€Р°РіР°");
+		}
 		std::vector<std::vector<double>> rk = ODERK4(f4, x, y1, h, a, b, maxH, E, Egr, maxX);
 
 		dataGridView1->Rows->Add(rk[0].size());
@@ -669,11 +694,23 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 			chart1->Series[Convert::ToString(j)]->Points->AddXY(rk[2][i], rk[3][i]);
 		}
 
-		label15->Text = "Общее число шагов:" + Convert::ToString(rk[9][0]) + "\nМаксимальная S:" + Convert::ToString(rk[9][1]) + "\nx для максимальной S:" + Convert::ToString(rk[9][2]) + "\nМинимальная S:" + Convert::ToString(rk[9][3]) + "\nx для минимальной S:" + Convert::ToString(rk[9][4]) + "\nПоследнее значение x:" + Convert::ToString(rk[9][5]) + "\nПоследнее значение y:" + Convert::ToString(rk[9][6]) + "\nМаксимальный шаг:" + Convert::ToString(rk[9][7]) + "\nМинимальный шаг:" + Convert::ToString(rk[9][8]) + "\nЧисло увеличений шага:" + Convert::ToString(rk[9][9]) + "\nЧисло уменьшений шага:" + Convert::ToString(rk[9][10]);
+		label15->Text = "ГЋГЎГ№ГҐГҐ Г·ГЁГ±Г«Г® ГёГ ГЈГ®Гў:" + Convert::ToString(rk[9][0]) + "\nГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г Гї S:" + Convert::ToString(rk[9][1]) + "\nx Г¤Г«Гї Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®Г© S:" + Convert::ToString(rk[9][2]) + "\nГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г Гї S:" + Convert::ToString(rk[9][3]) + "\nx Г¤Г«Гї Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г®Г© S:" + Convert::ToString(rk[9][4]) + "\nГЏГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ x:" + Convert::ToString(rk[9][5]) + "\nГЏГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ y:" + Convert::ToString(rk[9][6]) + "\nГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ:" + Convert::ToString(rk[9][7]) + "\nГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ:" + Convert::ToString(rk[9][8]) + "\nГ—ГЁГ±Г«Г® ГіГўГҐГ«ГЁГ·ГҐГ­ГЁГ© ГёГ ГЈГ :" + Convert::ToString(rk[9][9]) + "\nГ—ГЁГ±Г«Г® ГіГ¬ГҐГ­ГјГёГҐГ­ГЁГ© ГёГ ГЈГ :" + Convert::ToString(rk[9][10]);
 	}
 
-	if (comboBox1->Text == "Тестовая")
+	if (comboBox1->Text == "Г’ГҐГ±ГІГ®ГўГ Гї")
 	{
+		if (dataGridView1->ColumnCount == 0)
+		{
+			dataGridView1->Columns->Add("", "i");
+			dataGridView1->Columns->Add("", "h(i)");
+			dataGridView1->Columns->Add("", "x");
+			dataGridView1->Columns->Add("", "U");
+			dataGridView1->Columns->Add("", "U^");
+			dataGridView1->Columns->Add("", "s");
+			dataGridView1->Columns->Add("", "s*");
+			dataGridView1->Columns->Add("", "СѓРІ. С€Р°РіР°");
+			dataGridView1->Columns->Add("", "СѓРј. С€Р°РіР°");
+		}
 		std::vector<std::vector<double>> rk = ODERK4(f3, x, y1, h, a, b, maxH, E, Egr, maxX);
 
 		dataGridView1->Rows->Add(rk[0].size());
@@ -696,7 +733,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 			chart1->Series[Convert::ToString(j)]->Points->AddXY(rk[2][i], rk[3][i]);
 		}
 
-		label15->Text = "Общее число шагов:" + Convert::ToString(rk[9][0]) + "\nМаксимальная S:" + Convert::ToString(rk[9][1]) + "\nx для максимальной S:" + Convert::ToString(rk[9][2]) + "\nМинимальная S:" + Convert::ToString(rk[9][3]) + "\nx для минимальной S:" + Convert::ToString(rk[9][4]) + "\nПоследнее значение x:" + Convert::ToString(rk[9][5]) + "\nПоследнее значение y:" + Convert::ToString(rk[9][6]) + "\nМаксимальный шаг:" + Convert::ToString(rk[9][7]) + "\nМинимальный шаг:" + Convert::ToString(rk[9][8]) + "\nЧисло увеличений шага:" + Convert::ToString(rk[9][9]) + "\nЧисло уменьшений шага:" + Convert::ToString(rk[9][10]);
+		label15->Text = "ГЋГЎГ№ГҐГҐ Г·ГЁГ±Г«Г® ГёГ ГЈГ®Гў:" + Convert::ToString(rk[9][0]) + "\nГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г Гї S:" + Convert::ToString(rk[9][1]) + "\nx Г¤Г«Гї Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®Г© S:" + Convert::ToString(rk[9][2]) + "\nГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г Гї S:" + Convert::ToString(rk[9][3]) + "\nx Г¤Г«Гї Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г®Г© S:" + Convert::ToString(rk[9][4]) + "\nГЏГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ x:" + Convert::ToString(rk[9][5]) + "\nГЏГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ y:" + Convert::ToString(rk[9][6]) + "\nГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ:" + Convert::ToString(rk[9][7]) + "\nГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ:" + Convert::ToString(rk[9][8]) + "\nГ—ГЁГ±Г«Г® ГіГўГҐГ«ГЁГ·ГҐГ­ГЁГ© ГёГ ГЈГ :" + Convert::ToString(rk[9][9]) + "\nГ—ГЁГ±Г«Г® ГіГ¬ГҐГ­ГјГёГҐГ­ГЁГ© ГёГ ГЈГ :" + Convert::ToString(rk[9][10]);
 	}
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -708,32 +745,7 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	label15->Text = "";
 }
 private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
-	if (comboBox1->Text == "Основная 2")
-	{
-		dataGridView1->Columns->Add("", "i");
-		dataGridView1->Columns->Add("", "h(i)");
-		dataGridView1->Columns->Add("", "x");
-		dataGridView1->Columns->Add("", "U");
-		dataGridView1->Columns->Add("", "U'");
-		dataGridView1->Columns->Add("", "v^-v");
-		dataGridView1->Columns->Add("", "s");
-		dataGridView1->Columns->Add("", "s*");
-		dataGridView1->Columns->Add("", "ув. шага");
-		dataGridView1->Columns->Add("", "ум. шага");
-	}
-
-	if (comboBox1->Text == "Тестовая" || comboBox1->Text == "Основная 1")
-	{
-		dataGridView1->Columns->Add("", "i");
-		dataGridView1->Columns->Add("", "h(i)");
-		dataGridView1->Columns->Add("", "x");
-		dataGridView1->Columns->Add("", "U");
-		dataGridView1->Columns->Add("", "U^");
-		dataGridView1->Columns->Add("", "s");
-		dataGridView1->Columns->Add("", "s*");
-		dataGridView1->Columns->Add("", "ув. шага");
-		dataGridView1->Columns->Add("", "ум. шага");
-	}
+	
 }
 private: System::Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
